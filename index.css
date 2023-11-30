@@ -1,0 +1,42 @@
+.banner {
+    display:grid;
+    width: 200px;
+}
+h1 {
+    display: grid;
+    grid-template-areas: 2,3;
+    font-family: 'Karla';
+}
+
+body {
+    font-family: 'Hedvig';
+    background-color: #eafdf8;
+    margin: 0px;
+}
+
+nav {
+    
+    font-family:'Dancing Script';
+    width:100%;
+    background-color:#E69A98;
+    opacity: 70%;
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+    margin-right: 50px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+p {
+    font-family: 'Karla';
+ }
+
+li:hover {
+    cursor: pointer;
+    color: #9A5B8F;
+}
