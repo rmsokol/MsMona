@@ -1,12 +1,18 @@
 .banner {
-    display:grid;
-    width: 200px;
+    display: flexbox;
+    flex-direction: row;
+    width: 300px;
+    padding-bottom: 20px;
 }
-h1 {
-    display: grid;
-    grid-template-areas: 2,3;
-    font-family: 'Karla';
-}
+
+/* h1 {
+    display: flexbox;
+    flex-direction: row;
+    padding-left: 100px;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: 52px;
+} */
 
 body {
     font-family: 'Hedvig';
@@ -15,11 +21,11 @@ body {
 }
 
 nav {
-    
+    position: absolute;
     font-family:'Dancing Script';
     width:100%;
     background-color:#E69A98;
-    opacity: 70%;
+    opacity: 100%;
     
 }
 ul {
@@ -34,9 +40,20 @@ ul {
 }
 p {
     font-family: 'Karla';
+    padding: 20px;
  }
-
+.picture-reel {
+    width: 400px; 
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 li:hover {
     cursor: pointer;
     color: #9A5B8F;
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(110%);
 }
